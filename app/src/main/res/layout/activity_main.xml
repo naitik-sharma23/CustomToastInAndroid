@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6E879C"
+    tools:context=".MainActivity">
+
+   <Button
+       android:id="@+id/default_Button"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_centerHorizontal="true"
+       android:layout_marginTop="60dp"
+       android:text="Default toast"
+       app:backgroundTint="#BD4242" />
+
+   <Button
+       android:onClick="UserBuiltcustomToast"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+      android:id="@+id/Custom_Toast"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="120dp"
+      android:backgroundTint="#bd4242"
+      android:text=" User Built custom Toast "/>
+
+   <Button
+       android:onClick="moreToast"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+      android:id="@+id/Custom_ToastMore"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="180dp"
+      android:backgroundTint="#bd4242"
+      android:text="In built custom TOast "/>
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Created By:"
+      android:layout_alignParentBottom="true"
+      android:layout_marginBottom="40dp"
+      android:layout_centerHorizontal="true"
+      android:textStyle="bold"
+      android:textSize="16sp"/>
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Naitik_sharma23"
+      android:layout_alignParentBottom="true"
+      android:layout_marginBottom="20dp"
+      android:layout_centerHorizontal="true"
+      android:textStyle="bold"
+      android:textSize="16sp"/>
+
+</RelativeLayout>

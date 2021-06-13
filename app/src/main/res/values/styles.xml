@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="exm">
+
+        <!-- here is the list of properties which we can add in the custom toast design-->
+
+        <!--for text style-->
+        <item name="stTextBold">true</item>
+        <!--for text color-->
+        <item name="stTextColor">#070707</item>
+        <!--for text font-->
+    <!--<item name="stFont">@font/retrofont</item>-->
+        <!--for font size-->
+        <item name="stTextSize">14sp</item>
+        <!--for color background-->
+        <item name="stColorBackground">#F6F6F6</item>
+        <!--for solid background-->
+        <item name="stSolidBackground">true</item>
+        <!--for stroke width-->
+        <item name="stStrokeWidth">3dp</item>
+        <!--for stroke color-->
+        <!--<item name="stStrokeColor">#4BD1BA</item>-->
+        <!--for icon at the start point-->
+        <item name="stIconStart">@drawable/ic_baseline_warning_24</item>
+        <!--for icon at the start point-->
+        <!--<item name="stIconEnd">@drawable/ic</item>-->
+        <!--for time length of the toast-->
+        <item name="stLength">LONG</item> <!--LONG or SHORT-->
+        <!--for position of the toast-->
+<!--        <item name="stGravity"></item> top or center &lt;!&ndash; top or center&ndash;&gt;-->
+        <!--for corner radius of the toast-->
+        <item name="stRadius">5dp</item>
+    </style>
+</resources>
